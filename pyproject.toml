@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "homework9"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = ["Zdorovets Boris <bor.zdorovets28@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pymongo = "^4.8.0"
+mongoengine = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
